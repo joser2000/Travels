@@ -28,8 +28,7 @@ jobs:
       - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
-          node-version: '24.x'
-          cache: 'npm'
+          node-version: '24.x' 
 
       # Runs a single command using the runners shell
       - name: Run dotnet format whitespace
